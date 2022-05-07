@@ -1,5 +1,6 @@
 require('dotenv').config();
 const express = require('express');
+const morgan = require('morgan');
 
 const { errorCreator } = require('./middlewares/errorCreator');
 const { errorHandler } = require('./controllers/errorHandler');
