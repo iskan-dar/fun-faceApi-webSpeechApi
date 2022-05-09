@@ -1,6 +1,36 @@
-<form name="launchform" action="/ai">
+<div>
+    <div class="info">
+        <h4> Please read the following before launch! </h4>
+        <p> The application reads your face emotions <br>
+            and speaks out predefined phrases according <br>
+            to the emotion you express.</p>
+        <p> Make sure to allow an access to your<br>
+            camera before you start an application. </p>
 
-  <input id="input" name="input" type="text">
-  <button id="btn" type="submit">launch me!</button>
+        <p> Try to show the following emotions:</p>
+        <ul>
+            <li>happy</li>
+            <li>angry</li>
+            <li>surprised</li>
+            <li>fearful</li>
+            <li>neutral</li>
+            <li>sad</li>
+            <li>disgusted</li>
+        </ul>
+         <p> Have a great time :) </p>
+    </div>
+    <form name='launchForm' action='/ai'>
 
-</form>
+        <input
+            class='input'
+            name='input'
+            type='text'
+            minlength="3"
+            placeholder='Your name here'
+            required
+        />
+        <button class='launchBtn' type='submit'>launch me!</button>
+
+    </form>
+</div>
+
