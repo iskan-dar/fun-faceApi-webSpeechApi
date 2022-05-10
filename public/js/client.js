@@ -1,10 +1,14 @@
 /* eslint-disable no-undef */
-
 const { launchForm } = document;
 launchForm?.addEventListener('submit', (event) => {
   event.preventDefault();
   localStorage.setItem('name', event.target.input.value);
   window.location.href = '/ai';
+});
+
+const finish = document.querySelector('.finishBtn');
+finish.addEventListener('click', () => {
+  window.location.href = '/';
 });
 
 const { speechSynthesis } = window;
@@ -150,5 +154,5 @@ video?.addEventListener('play', () => {
         ],
       );
     }
-  }, 6000); // identifies face emotion with an interval of 6 sec
+  }, 5000); // identifies face emotion with an interval of 6 sec
 });
