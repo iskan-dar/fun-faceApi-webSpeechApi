@@ -16,12 +16,12 @@
     "face-api.js": "^0.22.2",
     "hbs": "^4.2.0",
     "http-errors": "^2.0.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
   },
   "devDependencies": {
     "eslint": "^8.10.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.4",
-    "nodemon": "^2.0.15"
+    "eslint-plugin-import": "^2.25.4"
   }
 }
