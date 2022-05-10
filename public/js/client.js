@@ -150,5 +150,5 @@ video?.addEventListener('play', () => {
         ],
       );
     }
-  }, 6000); // identifies face emotion with an interval of 6 sec
+  }, 5000); // identifies face emotion with an interval of 6 sec
 });
