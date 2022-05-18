@@ -14,9 +14,12 @@ Pet project. Application identifies gender, age, face emotions of a user and tal
 
 ##### Main Page
 
-![alt](./readmeAssets/mainPage.png)
+<p align="center" >
+    <img src="./readmeAssets/mainPage.png" width=89% height=89% />
+</p>
 
 ##### Face Emotions Identified
 
-![alt](./readmeAssets/faceEmotions.png)
-
+<p align="center" >
+    <img src="./readmeAssets/faceEmotions.png" width=89% height=89% />
+</p>
